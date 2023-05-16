@@ -60,7 +60,7 @@ const TeamView = (onInViewChange) => {
     dots:true,
     responsiveClass: true,
     autoplayTimeout: 5000,
-    smartSpeed: 450,
+    smartSpeed: 2000,
 
     responsive: {
       0: {
