@@ -6,7 +6,6 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Link from "@mui/material/Link";
 import Javaicon from "../icons/Java-Emblem.jpeg";
-import Avatar from "@mui/material/Avatar";
 import Cicon from "../icons/c.png";
 import Androidicon from "../icons/android.png";
 import CSSicon from "../icons/css.png";

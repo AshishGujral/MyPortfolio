@@ -1,7 +1,6 @@
 import React from "react";
 import Avatar from "@mui/material/Avatar";
 import './Skills.css';
-import Java from "../icons/Java-Emblem.jpeg";
 const Skills = (props) => {
     return (
       <div className="col-lg-4 about-card">

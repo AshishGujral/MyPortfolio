@@ -59,6 +59,7 @@ const Contact = () => {
           height="400"
           loading="lazy"
           className="frame"
+          title="frame"
         ></iframe>
       </div>
       <div className="s">

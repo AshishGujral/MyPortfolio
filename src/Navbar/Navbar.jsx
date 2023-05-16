@@ -9,12 +9,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import './Navbar.css';
 import { Link } from "react-scroll";
-import { useLocation } from 'react-router-dom';
 import avatarImg from "../imgs/avatar.jpg"; // import the avatar image
 import { useState, useEffect } from 'react';
 
@@ -122,7 +119,7 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page, index) =>
-                index == 3 ? null : (
+                index === 3 ? null : (
                   <MenuItem
                     key={page.label}
                     onClick={()=>handleCloseNavMenu()}
@@ -166,7 +163,7 @@ function ResponsiveAppBar() {
             }}
           >
             {pages.map((page,index) => 
-              position == 'fixed' && index==3? 
+              position === 'fixed' && index === 3? 
               <Text/>
               :
              ( <Button

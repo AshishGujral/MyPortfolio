@@ -1,4 +1,4 @@
-import React, { useState ,useEffect,useRef} from "react";
+import React, { useState} from "react";
 import OwlCarousel from "react-owl-carousel";
 import "./TeamView.css";
 import Kaisen from "../imgs/kaisen.jpeg";
@@ -51,7 +51,6 @@ const Testimonial = ({ testimonial, isActive }) => {
 };
 
 const TeamView = (onInViewChange) => {
-  const [activeTestimonial, setActiveTestimonial] = useState(0);
   const options = {
     loop: true,
     center: true,
@@ -86,7 +85,6 @@ const TeamView = (onInViewChange) => {
         <Testimonial
           key={testimonial.id}
           testimonial={testimonial}
-          isActive={testimonial.id === activeTestimonial}
         />
       ))}
     </OwlCarousel>
