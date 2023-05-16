@@ -2,21 +2,19 @@
   .card-text{
     width: 300px;
     height: 200px;
-  
   }
   .card-body{
     height: fit-content;
   }
+  #teamview{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .text-danger{
   font-size: 1em;
 }
-  .gtco-testimonials{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 30px;
-    margin-top: 70px;
 
-  }
   .gtco-testimonials h2 {
     font-size: 30px;
     color: #333333;
@@ -66,6 +64,8 @@
     transform: scale(0.8);
     transition: all 0.3s ease;
     margin: auto;
+    width: auto;
+    max-width: 90;
   }
   
   .gtco-testimonials .card.active {
@@ -137,6 +137,14 @@
     .gtco-testimonials {
       margin-top: 20px;
     }
+    .card-text{
+      width: auto;
+      height: 230px;
+    }
+    .text-danger{
+      font-size: 0.8em;
+    }
+
   }
   .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
     outline: 0;

@@ -12,6 +12,10 @@
 
 #portfolio{
   margin-top: 70px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 
 .btn-component {
@@ -76,6 +80,9 @@ button {
 
 button.active {
   background-color: #dc3545;
+}
+.mb-5{
+  padding: 5px;
 }
 
 .text-danger {

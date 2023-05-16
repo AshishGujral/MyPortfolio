@@ -5,7 +5,7 @@ const Skills = (props) => {
     return (
       <div className="col-lg-4 about-card">
         <h3 className="font-weight-light">Skills</h3>
-        <span className="line mb-5"></span>
+        <span className="line"></span>
         <div className="row" id="sk">
             
           {props.item.map((item, index) => (

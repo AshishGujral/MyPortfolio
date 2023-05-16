@@ -3,6 +3,7 @@
     padding-right: 15px;
     padding-left: 15px;
     margin-left:30px ;
+
   }
 
   .h4{
@@ -123,9 +124,9 @@
   .animated-item:nth-child(3n+3) {
     animation-delay: 4s;
   }
-  @media (min-width: 576px) {
+  @media (max-width: 576px) {
     .container {
-      max-width: 540px;
+      max-width: 140px;
     }
   }
   @keyframes BottomTotop {

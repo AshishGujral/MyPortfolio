@@ -8,6 +8,7 @@ import Java from '../imgs/java.jpg'
 import Android1 from '../imgs/android1.jpg'
 import Android2 from '../imgs/android2.jpg'
 import PortfolioItem from './PortfolioItem';
+import Arduino from '../imgs/Arduino.jpg';
 import './Portfolio.css';
 import React, {useState} from 'react';
 
@@ -15,14 +16,14 @@ const portfolioData = [
   {
   category: 'web',
   imageSrc: Web1,
-  linkUrl: Web1,
+  linkUrl: "https://github.com/AshishGujral/Php-CrudOperation",
   title: 'WEB',
   subtitle: 'Php Crud Operation!',
   },
   {
   category: 'web',
   imageSrc: Web2,
-  linkUrl: Web2,
+  linkUrl: "https://github.com/AshishGujral/Php-LoginAuthentication",
   title: 'WEB',
   subtitle: 'Php user registration using Rest api!',
   },
@@ -43,21 +44,28 @@ const portfolioData = [
   {
   category: 'html',
   imageSrc: Html3,
-  linkUrl: Html3,
+  linkUrl: "https://github.com/AshishGujral/NodeJs-PortfolioProject",
   title: 'Node JS',
   subtitle: 'Portfolio website using node js',
   },
   {
   category: 'web',
   imageSrc: Java,
-  linkUrl: Java,
+  linkUrl: "https://github.com/AshishGujral/LibraryManagement-Javaproject",
   title: 'Java',
   subtitle: 'Library Application',
   },
   {
+    category: 'web',
+    imageSrc: Arduino,
+    linkUrl: 'https://github.com/AshishGujral/Synchome',
+    title: 'Full Stack',
+    subtitle: 'Using ESP32',
+    },
+  {
   category: 'android',
   imageSrc: Android1,
-  linkUrl: Android1,
+  linkUrl: "https://github.com/AshishGujral/BookShare",
   title: 'Android',
   subtitle: 'Bookshare App with login logout',
   },
@@ -84,7 +92,7 @@ const portfolioData = [
   
     return (
       <section className="section bg-custom-gray" id="portfolio">
-        <div className="container">
+        <div className="containe">
           <h2 className="mb-5">
             <span className="text-danger">My Portfolio </span>
             <span className="line"></span>

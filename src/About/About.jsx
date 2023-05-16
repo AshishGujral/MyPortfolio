@@ -32,7 +32,7 @@ const About = () => {
       <div id="about" className="row about-section">
         <div className="col-lg-4 about-card">
           <h3 className="font-weight-light">Who am I ?</h3>
-          <span className="line mb-5"></span>
+          <span className="line"></span>
           <h5 className="about-text" style={{opacity:0.8}}>
           As a passionate web developer, I strive to create unique and innovative web solutions that leave a lasting impact. From front-end design to back-end development, I'm always up for a challenge and eager to learn something new. 
 So grab a cup of coffee ☕️ and let's dive into the world of web development together! 🌐💻
@@ -40,7 +40,7 @@ So grab a cup of coffee ☕️ and let's dive into the world of web development 
         </div>
         <div className="col-lg-4 about-card">
           <h3 className="font-weight-light">Personal Info</h3>
-          <span className="line mb-5"></span>
+          <span className="line"></span>
           <ul className="mt40 info list-unstyled" >
             <li>
               <span>Email</span> : ashishgujral22@gmail.com

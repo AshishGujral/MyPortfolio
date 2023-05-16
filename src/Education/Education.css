@@ -35,8 +35,8 @@
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 30px;
     width:fit-content;
-    min-width:max-content;
     box-sizing: border-box;
+    margin-left:40px;
   }
 
 .line {
@@ -44,6 +44,11 @@
     width: 25px;
     height: 1.5px;
     background-color: #F85C70;
+  }
+  #education{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
   hr {
     margin-top: 1rem;
@@ -53,3 +58,12 @@
   }
   
 
+/* Extra Small Devices (portrait phones) */
+@media only screen and (max-width: 476px) {
+
+.card{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+}
