@@ -13,7 +13,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
       <div className="Icons">
-        <Link href="https://www.linkedin.com/in/ashishgujral22/" color="inherit"> <LinkedInIcon/> </Link>
+        <Link href="https://www.linkedin.com/in/ashishgujral/" color="inherit"> <LinkedInIcon/> </Link>
         <Link href="https://twitter.com/Ashishgujral22" color="inherit"> <TwitterIcon/> </Link>
         <Link href="mailto:ashishgujral22@gmail.com" color="inherit"> <GoogleIcon/> </Link>
         <Link href="https://www.instagram.com/ashugujral/" color="inherit"> <FacebookIcon/> </Link>
