@@ -1,0 +1,31 @@
+
+.brand{
+  list-style: none;
+}
+.navbar_app.active {
+  color: #F85C70;
+}
+
+.brand-subtitle {
+    font-size: 13px;
+    color: #888;
+  }
+ .brand-txt {
+    position: relative;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -weblit-transition: 1s;
+    z-index: 1;
+  }
+.ul{
+  list-style-type: none;
+}
+  .brand-title{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+
+  }
+  

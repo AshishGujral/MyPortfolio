@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React,{ StrictMode } from 'react';
+import Header from './Header/Header';
+import Navbar from './Navbar/Navbar';
+import About from './About/About';
+import Education from './Education/Education';
+import Portfolio from './Portfolio/Portfolio';
+import TeamView from './TeamView/TeamView';
+import Contact from './Contact/Contact';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Navbar/>
+      <About/>  
+      <Education/>
+
+      <Portfolio/>
+      <StrictMode>
+      <TeamView/>
+      </StrictMode>
+      <Contact/>
+
     </div>
   );
 }
