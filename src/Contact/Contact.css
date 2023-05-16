@@ -5,6 +5,7 @@
     margin-bottom: 20px;
     margin-top: 30px;
     margin-left: 10px;
+  
   }
   .col-lg-5{
     flex: 1;
@@ -172,7 +173,24 @@
       margin-bottom: 0;
       display: inline-block;
       vertical-align: middle;
-      
+      border: 1px solid #d3d3d3;
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 90%;
+      font-size: 16px;
+      color: #333;
+  
+    }
+    .submit-btn {
+      background-color: #f5a623;
+      color: #fff;
+      border: none;
+      padding: 10px 10px;
+      cursor: pointer;
+      border-radius: 20px;
+      width: 80%;
+      justify-content: center;
+      transition: background-color 0.3s ease-in-out;
     }
    
     .form-control:last-of-type {
@@ -182,7 +200,6 @@
     .frame {
       width:60%;
       height: 300px;
-      padding: 0;
       margin-top: 20px;
       display: flex;
       margin-right: auto;

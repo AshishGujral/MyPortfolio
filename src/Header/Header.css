@@ -161,6 +161,19 @@
     .container {
       max-width: 720px;
     }
+
+  }
+
+  @media (max-width: 520px){
+    .animated-item {
+      font-size: 23px;
+      line-height: inherit;
+      display: block;
+      opacity: 0;
+      position:absolute;
+     
+      animation: BottomTotop 6s linear infinite 0s;
+    }
   }
   
   @media (min-width: 992px) {
