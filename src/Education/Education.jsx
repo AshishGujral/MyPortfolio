@@ -10,7 +10,7 @@ const Education = () => {
           <div className="col-md-6 col-lg-4">
               <div className="card">
                   <div className="card-body">
-                      <h6 className="title text-danger">2021 - Present</h6>
+                      <h6 className="title text-danger">2021 - 2023</h6>
                       <p><b>Post Baccalaureate Diploma - Douglas College</b></p>
                       <p className="subtitle">Emerging Technology.</p>
                       <hr></hr>
