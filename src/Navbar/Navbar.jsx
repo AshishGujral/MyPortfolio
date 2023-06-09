@@ -15,6 +15,7 @@ import { Link } from "react-scroll";
 import avatarImg from "../imgs/avatar.jpg"; // import the avatar image
 import { useState, useEffect } from 'react';
 
+
 const pages = [
   { label: "Home", id: "header" },
   { label: "About", id: "about" },

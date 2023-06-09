@@ -17,8 +17,9 @@
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^6.11.1",
     "react-scripts": "^5.0.1",
+    "react-scroll": "^1.8.9",
     "web-vitals": "^3.3.1",
-    "react-scroll": "^1.8.9"
+    "yet-another-react-lightbox": "^3.10.2"
   },
   "scripts": {
     "start": "react-scripts start",
