@@ -15,6 +15,7 @@ import Mysqlicon from "../icons/mysql.png";
 import Phpicon from "../icons/php.png";
 import "./About.css";
 import Skills from "../Skills/Skills";
+import resume from '../assets/Ashish-Gujral-Resume.pdf';
 
 const skill = [
     { icon: Javaicon, id: "Java" },
@@ -37,6 +38,12 @@ const About = () => {
           As a passionate web developer, I strive to create unique and innovative web solutions that leave a lasting impact. From front-end design to back-end development, I'm always up for a challenge and eager to learn something new. 
 So grab a cup of coffee ☕️ and let's dive into the world of web development together! 🌐💻
           </h5>
+         
+          <button  className=" submitbtn">
+    <a className="submit" href={resume} download = "Ashish-Gujral-Resume.pdf">
+      Resume
+    </a>
+</button>
         </div>
         <div className="col-lg-4 about-card">
           <h3 className="font-weight-light">Personal Info</h3>
